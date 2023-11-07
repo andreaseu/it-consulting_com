@@ -900,3 +900,16 @@ button,
       left: auto;
       margin: 1em 0 0 0;
       position: relative; } }
+
+/* Setzen Sie eine maximale Breite für das Logo, damit es nicht zu groß wird */
+#header img {
+  max-width: 500px; /* Sie können mit dieser Prozentzahl experimentieren */
+  height: auto; /* Dies stellt sicher, dass das Seitenverhältnis erhalten bleibt */
+}
+
+/* Media Query für kleinere Geräte */
+@media screen and (max-width: 300px) {
+  #header img {
+      max-width: 80%; /* Verkleinern Sie das Logo weiter für sehr kleine Bildschirme */
+  }
+}

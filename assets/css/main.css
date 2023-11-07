@@ -913,3 +913,13 @@ button,
       max-width: 80%; /* Verkleinern Sie das Logo weiter für sehr kleine Bildschirme */
   }
 }
+.adresse {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+@media screen and (max-width: 300px) {
+  .adresse {
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+}
